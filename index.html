@@ -13,6 +13,58 @@
         <button onclick="sample()">try</button>
       
         <p id="texte">This is an electronic vote which restirct age, and handle partys</p>
+
+        <form action="poster">
+            <label for="firstName">firstName</label>
+            <input type="text" name="Fname" id="firstName"><br>
+
+            <label for="SecondName">SecondName</label>
+            <input type="text" name="Sname" id="SecondName"><br>
+
+            <label for="lastName">lastName</label>
+            <input type="text" name="Lname" id="lastName" required><br>
+
+            <label for="Email">Email</label>
+            <input type="text" name="name" id="Email"><br>
+
+            <label for="Region">Region</label>
+            <input type="text" name="name" id="Region"><br>
+
+            <label for="City">City</label>
+            <input type="text" name="name" id="City"><br>
+
+            <label for="zone">zone</label>
+            <input type="text" name="name" id="zone"><br>
+
+            <label for="Woreda">Woreda</label>
+            <input type="text" name="name" id="Woreda"><br>
+
+            <label for="vote">እድሜዎትን ያስገቡ: </label><br>
+            <input  type="text" value="18" id="vote"><br>
+            
+            
+           
+
+
+            
+
+            <p>የሚመርጥትን ፓርቲ ያስገቡ:</p>
+              <input type="radio" id="Party-one" name="fav_language" value="Party-one">
+              <label for="Party-one">Party-one</label><br>
+              <input type="radio" id="party-two" name="fav_language" value="party-two">
+              <label for="party-two">party-two</label><br>
+              <input type="radio" id="party-three" name="fav_language" value="party-three">
+              <label for="party-three">party-three</label> <br>
+            <button class="btn" onclick="vote()">vote</button>
+            <p id="paragrapgh"></p>
+
+
+          
+            
+
+
+
+        </form>
         
     </div>
     <script src="source/vote.js"></script>
