@@ -9,35 +9,44 @@
 </head>
 <body>
     <div class="container">
-        <h1 >Electronic vote</h1>
+  <h1 >Electronic vote</h1>
       
       
         <p id="texte">This is an electronic vote which restirct age, and handle partys</p>
-
-        <form >
-            <label for="firstName">firstName</label>
+        
+        
+  
+            <label for="firstName" >firstName</label><br>
             <input type="text" name="Fname" id="firstName"><br>
+            <p id="errfname">error message</p>
 
-            <label for="SecondName">SecondName</label>
+            <label for="SecondName">SecondName</label><br>
             <input type="text" name="Sname" id="SecondName"><br>
+            <p id="errsname">error message</p>
 
-            <label for="lastName">lastName</label>
+            <label for="lastName">lastName</label><br>
             <input type="text" name="Lname" id="lastName" ><br>
+            <p id="errlname">error message</p>
 
-            <label for="Email">Email</label>
+            <label for="Email">Email</label><br>
             <input type="text" name="name" id="Email"><br>
+           
 
-            <label for="Region">Region</label>
+            <label for="Region">Region</label><br>
             <input type="text" name="name" id="Region"><br>
+            <p id="errregion">error message</p>
 
-            <label for="City">City</label>
+            <label for="City">City</label><br>
             <input type="text" name="name" id="City"><br>
+            <p id="errcity">error message</p>
 
-            <label for="zone">zone</label>
+            <label for="zone">zone</label><br>
             <input type="text" name="name" id="zone"><br>
+            <p id="errzone">error message</p>
 
-            <label for="Woreda">Woreda</label>
+            <label for="Woreda">Woreda</label><br>
             <input type="text" name="name" id="Woreda"><br>
+            <p id="errworeda">error message</p>
 
            
             
@@ -46,19 +55,19 @@
 
 
             
-
-            <p>የሚመርጥትን ፓርቲ ያስገቡ:</p>
+        
+            <!-- <p>የሚመርጥትን ፓርቲ ያስገቡ:</p>
               <input type="radio" id="Party-one" name="fav_language" value="Party-one">
               <label for="Party-one">Party-one</label><br>
               <input type="radio" id="party-two" name="fav_language" value="party-two">
               <label for="party-two">party-two</label><br>
               <input type="radio" id="party-three" name="fav_language" value="party-three">
-              <label for="party-three">party-three</label> <br>
+              <label for="party-three">party-three</label> <br>  -->
 
-            <label for="vote">እድሜዎትን ያስገቡ: </label><br>
-            <input  type="text" value="" id="vote"><br>
-            <button class="btn" onclick=vote()>vote</button>
-            <p id="paragrapgh">fasd</p>
+            <label for="vote">age </label><br>
+            <input  type="text"  id="vote"><br>
+            <button class="btn" onclick =vote() > vote</button>
+            <p id="paragrapgh" class="errmesage"></p>
 
 
           
@@ -66,7 +75,7 @@
 
 
 
-        </form>
+
         
     </div>
     <script src="source/vote.js"></script>
