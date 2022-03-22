@@ -17,37 +17,33 @@
        
        <form action="successfull.html" aria-required="true">
         <p>የሚመርጥትን ፓርቲ ያስገቡ:</p>
-          <input type="radio" id="Party-one" name="fav_language" value="Party-one">
-          <label for="Party-one">Party-one</label><br>
-          <input type="radio" id="party-two" name="fav_language" value="party-two">
-          <label for="party-two">party-two</label><br>
-          <input type="radio" id="party-three" name="fav_language" value="party-three">
-          <label for="party-three">party-three</label> <br> 
+        <div class="paryholder">
+              <input type="radio" id="Party-one" name="fav_language" value="Party-one" class="one">
+              <label for="Party-one">Party-one</label><br>
+
+
+              <input type="radio" id="party-two" name="fav_language" value="party-two" class="one">
+              <label for="party-two">party-two</label><br>
+
+
+              <input type="radio" id="party-three" name="fav_language" value="party-three" class="one">
+              <label for="party-three">party-three</label> <br>
+
+            <p id="errormessage">error displayer</p>
+
+        </div>
+         
         <input type="submit" id="partysubmit">
        
-            
-           
-            
-
-        
-        
+    
 
        </form>
       
             
-            
-
-            
-        
-          
-            
-
-
-
-
+       
         
     </div>
-    <script src="/source/party.js"></script>
+    <script src="party.js"></script>
     
 
 </body>
