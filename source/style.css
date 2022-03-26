@@ -1,6 +1,6 @@
 body{
     background-color: #1F485B;
-    margin: auto;
+    
     
 }
 
@@ -14,12 +14,13 @@ body{
     justify-content: space-evenly; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+
     margin: auto;
     margin-top: 10px;
     max-width: 90%;
+  
     
-    background-color: #1a4a60;
+    ;
     
    
 
@@ -29,6 +30,9 @@ body{
     
     grid-column: span 3;
     background-color: #1f485b;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
    
     
 }
@@ -47,16 +51,22 @@ body{
 }
 .ballonvote{
     width: 39%;
-    /* position: absolute; */
+     position: absolute; 
+     left: 10%;
+     top: 20%;
+    
 }
 .vote{
-    color: white;
+    color: rgb(255, 246, 246);
     font-size: 3em;
+    z-index: 1;
+    font-weight: bolder;
 }
 
 .sub-body-one{
     display: flex;
     flex-direction:column;
+    align-items: center;
 }
 
 
@@ -64,16 +74,15 @@ body{
     border: 3px solid rgb(9, 255, 0);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    
 }
 
-.one{
-    grid-column: span 3;
-    grid-row: span 4;
 
- 
+.last{
+   margin-top: 10em;
+   font-size: 2em;
+   color: white;
 }
-
 
 
 
