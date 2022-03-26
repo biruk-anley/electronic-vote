@@ -1,9 +1,98 @@
-.sample{
-    background-color: red;
+body{
+    background-color: #1F485B;
+    margin: auto;
+    
 }
+
+
+.container{
+    /* display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid green;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 90%;
+    
+    background-color: #1a4a60;
+    
+   
+
+
+}
+.sub-container-1{
+    
+    grid-column: span 3;
+    background-color: #1f485b;
+   
+    
+}
+.sub-container-2{
+  
+   grid-column: span 5;
+    background-color: white;
+   
+
+
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ballonvote{
+    width: 39%;
+    /* position: absolute; */
+}
+.vote{
+    color: white;
+    font-size: 3em;
+}
+
+.sub-body-one{
+    display: flex;
+    flex-direction:column;
+}
+
+
+.formbody{
+    border: 3px solid rgb(9, 255, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.one{
+    grid-column: span 3;
+    grid-row: span 4;
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .errmesage{
 color: red;
 }
-input{
-    padding: 5px;
-}
+

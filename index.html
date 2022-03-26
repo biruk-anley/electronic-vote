@@ -8,66 +8,136 @@
     <link rel="stylesheet" href="source/style.css">
 </head>
 <body>
-    <div class="container">
-  <h1 >Electronic vote</h1>
-      
-      
-        <p id="texte">This is an electronic vote which restirct age, and handle partys</p>
+    <main>
+        <div class="container">
         
-       
-        <form> 
-            <label for="firstName" >firstName</label><br>
-            <input type="text"   name="Fname" id="firstName" ><br>
-            <p id="errmesagefirst"></p>
-
-
-            <label for="SecondName">SecondName</label><br>
-            <input type="text" name="Sname" id="SecondName"><br>
-            <p id="errmesagesecond"></p>
-           
-
-            <label for="lastName">lastName</label><br>
-            <input type="text" name="Lname" id="lastName" ><br>
-            <p id="errmesage"></p>
-            
-            
-            <label for="Email">Email</label><br>
-            <input type="text" name="name" id="Email"><br>
-            <p id="errmesageemail"></p>
+            <!--here is the first container-->
+            <div class="sub-container-1">
+                <div class="logo">
+                    <img src="/ui/mainlogo.png" alt="">
+                </div>
+        
+                <!--this one wil handle js image slide-->
+                <div class="sub-body-one">
+                    <p class="vote">vote today</p>
+                    <img src="/ui/vote_ballon.png" class="ballonvote" alt="" >
+                </div>
+        
+                <p>
+                    Be part of
+                    Decession
+                </p>
+        
+            </div>
+        
+            <!--here is the second container-->
+        
+            <div class="sub-container-2">
+                <div class="header">
+                    <img src="/ui/Logo.png" alt="logo">
+                    <h1>Register to vote</h1>
+                </div>
+        
+                <!--here is the form-->
+                <div class="formbody">
+                    <form>
+                        <div class="one">
+                            <label for="firstName">firstName</label><br>
+                            <input type="text" name="Fname" id="firstName"><br>
+                            <p id="errmesagefirst"></p>
+        
+                        </div>
+                        <div class="one">
+                            <label for="SecondName">SecondName</label><br>
+                            <input type="text" name="Sname" id="SecondName"><br>
+                            <p id="errmesagesecond"></p>
+                        </div>
+        
+        
+                        <div class="one">
+                            <label for="lastName">lastName</label><br>
+                            <input type="text" name="Lname" id="lastName"><br>
+                            <p id="errmesage"></p>
+                        </div>
                        
-
-            <label for="Region">Region</label><br>
-            <input type="text" name="name" id="Region"><br>
-            <p id="errmesageregion"></p>
-            
-
-            <label for="City">City</label><br>
-            <input type="text" name="name" id="City"><br>
-            <p id="errmesagecity"></p>
-            
-            <label for="zone">zone</label><br>
-            <input type="text" name="name" id="zone"><br>
-            <p id="errmesagezone"></p>
-
-
-            <label for="Woreda">Woreda</label><br>
-            <input type="text" name="name" id="woreda"><br>
-            <p id="errmesageworeda"></p>
-
-
-
-            <label for="forms">age </label><br>
-            <input  type="text"  id="forms"><br>
-
-
-            <button class="btn" id="sub"> next </button>
-            <p id="paragrapgh" class="errmesage">
-
-
-    </form>
-      
         
-    </div>
+                        <div class="one">
+                            <label for="Email">Email</label><br>
+                            <input type="text" name="name" id="Email"><br>
+                            <p id="errmesageemail"></p>
+
+                        </div>
+                       
+        
+                        <div class="one">
+                            <label for="Region">Region</label><br>
+                            <input type="text" name="name" id="Region"><br>
+                            <p id="errmesageregion"></p>
+                        </div>
+
+
+                        <div class="one">
+                            <label for="City">City</label><br>
+                            <input type="text" name="name" id="City"><br>
+                            <p id="errmesagecity"></p>
+                        </div>
+
+
+                        <div class="one">
+                            <label for="zone">zone</label><br>
+                            <input type="text" name="name" id="zone"><br>
+                            <p id="errmesagezone"></p>
+                        </div>
+
+
+                        <div class="one">
+                            <label for="Woreda">Woreda</label><br>
+                            <input type="text" name="name" id="woreda"><br>
+                            <p id="errmesageworeda"></p>
+                        </div>
+
+
+                        <div class="one">
+                            <label for="forms">age </label><br>
+                            <input type="text" id="forms"><br>
+                        </div>
+
+                        
+        
+        
+        
+        
+        
+        
+        
+        
+                        <button class="btn" id="sub"> next </button>
+                        <p id="paragrapgh" class="errmesage">
+        
+        
+                    </form>
+        
+                </div>
+        
+                <!--here is descirption about website which is impletnted through js-->
+                <p id="texte">This is an electkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkronic vote which restirct age, and handle
+                    partys</p>
+        
+            </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+
+    </main>
+    
     <script src="source/vote.js"></script>
 
     
