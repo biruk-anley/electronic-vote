@@ -45,7 +45,10 @@ body {
   font-weight: bolder;
   margin: 15px;
 }
-
+#texte{
+ padding:0 80px;
+ font-size: 1.2em;
+}
 .sub-body-one {
   display: flex;
   flex-direction: column;
@@ -142,20 +145,28 @@ width: 100%;
   display: flex;
  justify-content: space-between;
   flex-direction: row-reverse;
-  border: 5px solid rgb(66, 214, 66);
+  
   align-items: center;
   
 }.one{
   margin-left:55px ;
 }
-labe{
-  font-size: 5em;
+label{
+  font-size: 1.2em;
+}
+input {
+    width: 243px;
+    border-radius: 5px;
+    padding: 14px;
 }
 
 
 
 
-
+@media(max-width:455px){
+ .sub-container-2{
+   width: 123%;
+ }
 
 
 
