@@ -161,28 +161,13 @@ input {
 }
 
 
-
-
-@media(max-width:455px){
+    
+}
+@media(max-width:655px){
  .sub-container-2{
    width: 123%;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+ button{
+   padding-left: 11px;
+ }
 }

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1F485B;
+}
+
+   .sucess {
+    width:40%;
+    background-color: white;
+    height: 400px;
+    top: 30%;
+    left: 30%;
+    display: table-cell;
+    /* margin-left: 19px; */
+    display: relative;
+    margin: auto;
+    border-radius: 20px;
+    position: absolute;
+}
+.sucess-img{
+   
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.text{
+    color: red;
+    border: 5px solid green;
+    z-index: -1;
+}
+    
