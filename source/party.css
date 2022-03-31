@@ -1,0 +1,25 @@
+body {
+    background-color: #1f485b;
+    margin: 0;
+}
+.title-header{
+    font-size: 1.5em;
+}
+.all-party-holder{
+    display: flex;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   background-color: #5b1f1f66;
+    margin: 3px;
+    padding: 23px;
+    flex-wrap: wrap;
+}
+.body{
+    background-color: white;
+    margin: 8px;
+    padding: 15px;
+}
