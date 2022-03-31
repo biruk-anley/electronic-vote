@@ -1,50 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Js practice</title>
-    <link rel="stylesheet" href="/source/style.css">
+    <link rel="stylesheet" href="party.css">
 </head>
+
 <body>
     <div class="container">
-  <h1 ></h1>
-      
-      
-        
-        
-       
-       <form action="successfull.html" aria-required="true">
-        <p>የሚመርጥትን ፓርቲ ያስገቡ:</p>
-        <div class="paryholder">
-              <input type="radio" id="Party-one" name="fav_language" value="Party-one" class="one">
-              <label for="Party-one">Party-one</label><br>
+        <h1></h1>
 
 
-              <input type="radio" id="party-two" name="fav_language" value="party-two" class="one">
-              <label for="party-two">party-two</label><br>
 
 
-              <input type="radio" id="party-three" name="fav_language" value="party-three" class="one">
-              <label for="party-three">party-three</label> <br>
 
-            <p id="errormessage">error displayer</p>
+        <form action="successfull.html" aria-required="true">
+            <p class="title-header">የሚመርጥትን ፓርቲ ያስገቡ:</p>
+            <div class="all-party-holder">
 
-        </div>
-         
+
+                <!--here is the first party-->
+                <div class="paryholder">
+                    <div class="header">
+                        <input type="radio" id="Party-one" name="fav_language" value="Party-one" class="one">
+                         <label for="Party-one">Party-one</label>
+                        <img src="/ui/positive-vote.png" alt="">
+                        <p>James michel</p>
+                    </div>
+                    <div class="body">
+                        <p>Name : James Michel</p>
+                        <p>Age : 58</p>
+                        <p>Party : Raiser</p>
+                        <p>Education : electical Engineering</p>
+                    </div>
+                </div>
+
+
+                <!--here is the second party-->
+                <div class="paryholder">
+                    <div class="header">
+                        <input type="radio" id="Party-one" name="fav_language" value="Party-one" class="one">
+                         <label for="Party-one">Party-one</label>
+                        <img src="/ui/positive-vote.png" alt="">
+                        <p>James michel</p>
+                    </div>
+                    <div class="body">
+                        <p>Name : James Michel</p>
+                        <p>Age : 58</p>
+                        <p>Party : Raiser</p>
+                        <p>Education : electical Engineering</p>
+                    </div>
+                </div>
+
+
+                <!--here is the third party-->
+                <div class="paryholder">
+                    <div class="header">
+                        <input type="radio" id="Party-one" name="fav_language" value="Party-one" class="one">
+                         <label for="Party-one">Party-one</label>
+                        <img src="/ui/positive-vote.png" alt="">
+                        <p>James michel</p>
+                    </div>
+                    <div class="body">
+                        <p>Name : James Michel</p>
+                        <p>Age : 58</p>
+                        <p>Party : Raiser</p>
+                        <p>Education : electical Engineering</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </form>
+        <p id="errormessage">error displayer</p>
         <input type="submit" id="partysubmit">
-       
-    
 
-       </form>
-      
-            
-       
-        
+
+
+
     </div>
     <script src="party.js"></script>
-    
+
 
 </body>
+
 </html>
