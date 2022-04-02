@@ -3,7 +3,7 @@ function select() {
     let partyName = document.querySelector("input[name='fav_language']:checked");
     console.log(partyName)
     if (partyName ==null) {
-        partyholder = "please enter pary name";
+        partyholder = "please select the party";
         document.getElementById("errormessage").innerHTML = partyholder;
         
     }

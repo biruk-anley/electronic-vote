@@ -13,13 +13,93 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   background-color: #5b1f1f66;
+    background-color: #6d44444a;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 3px;
-    padding: 23px;
+    
     flex-wrap: wrap;
 }
 .body{
     background-color: white;
     margin: 8px;
     padding: 15px;
+}
+.all-party-holder {
+    display: flex;
+   
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.submit {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input#Party-one {
+    font-size: 3em;
+    width: 27px;
+    height: 55px;
+}
+.paryholder{
+    width: 34%;
+    margin-top: 0px;
+}
+.name {
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.61);
+}
+
+img {
+    width: 11%;
+}
+
+@media(max-width:792px) {
+    .paryholder {
+        width: 45%;
+    }
+}
+
+@media(max-width:792px) {
+    .name {
+        font-size: 1.2em;
+    }
+}
+
+
+
+@media(max-width:822px) {
+    .paryholder {
+        width: 75%;
+    }
+}
+
+
+
+@media(max-width:475px) {
+    .name {
+        font-size: 1.em;
+        
+    }
+    
+    img {
+        width: 10%;
+    }
+}
+
+#partysubmit{
+    padding-inline: 56px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+#errormessage {
+    color: red;
+    font-size: 1.2em;
 }
